@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 공통 스타일 정의 */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input, textarea {
+    outline: none;
+}
+
+
+/* 반복 재사용 정의 */
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.bg-primary {
+    background-color: dodgerblue;
+}
+
+.text-white {
+    color: white;
+}
+
+nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.active {
+    background-color: black;
+    border-radius: 10px;
+}
