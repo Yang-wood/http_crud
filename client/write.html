@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>마이 노트앱</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=MPvp6b7xAiTA&format=png&color=000000" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/mvp.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,22 +17,22 @@
                 <li><a href="index.html">처음으로</a></li>
                 <li class="active"><a href="write.html">노트작성</a></li>
                 <li><a href="find.html">노트조회</a></li>
-                <li><a href="giude.html">이용안내</a></li>
+                <li><a href="guide.html">이용안내</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <form id="note_form">
+        <form id="note_form" autocomplete="off">
             <label for="title">제목</label><input type="text" name="title" id="title">
             <label for="wr_date">날짜</label><input type="date" name="wr_date" id="wr_date">
             <label for="content">내용</label><textarea rows="3" cols="20" name="content" id="content"></textarea>
             <button type="submit">등록</button>
         </form>
     </main>
+    <hr>
     <footer>
         <P>&copy; my notes app.</P>
-
     </footer>
     <script src="add_note.js"></script>
 </body>
